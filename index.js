@@ -14,7 +14,7 @@ conectarDB()
 app.use(express.json({extended:true}))
 
 //Creamos el puerto
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 //Iniciamos el servidor
 app.listen(PORT, ()=>{console.log('Connect with the port ', PORT)})
